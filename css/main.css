@@ -122,28 +122,28 @@ p{
   font-family: 'Sriracha', cusive;
   font-size: 18px;
   color:#45133f;
-
-
 }
 
 img.displayed {
   display: block;
-margin-left:auto;
-margin-right:auto;
-width:535px;
+  margin-left:auto;
+  margin-right:auto;
+  width:535px;
 }
 
 h3{
     color:#45133f;
     display:inline-block;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
   }
 
 
 /***** portfolio *****/
 
+
+
 #portfolio {
-  display: inline-block;
+  padding:80px;
   text-align: center;
   font-family: 'Sriracha', cursive;
 }
@@ -153,8 +153,9 @@ h3{
   margin-right:auto;
 }
 #portfolio .third-width{
-  margin-left:auto;
-  margin-right:auto;
+  display:inline-block;
+  text-align: center;
+  margin:auto;
 }
 #portfolio img {
   float: left;
@@ -163,6 +164,7 @@ h3{
   border-style: none;
   border-radius: 10px;
 
+
 }
 
 #portfolio h3 {
@@ -170,6 +172,7 @@ h3{
     line-height: 32px;
     width: 190px;
     margin: 0 auto;
+    padding-top:30px;
 }
 #portfolio p {
   font-family: 'Sriracha', cursive;
@@ -177,4 +180,12 @@ h3{
   font-size: 18px;
   line-height: 30px;
   padding: 0 50px;
+}
+
+/***** contact *****/
+#contact h3{
+  display:block;
+  text-align: center;
+  margin:auto;
+  font-size: 40px;
 }
