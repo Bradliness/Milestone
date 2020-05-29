@@ -27,7 +27,7 @@ body{
 }
 .third-width{
     width:400px;
-    float: left;
+float:left;
     margin:0 auto;
     text-align:center;
 }
@@ -36,8 +36,8 @@ body{
    text-align: center;
 }
 .center{
-align: center;
-margin: 0 auto;
+  align-content: center;
+  margin: 0 auto;
 
 }
 .about-me-container{
@@ -183,9 +183,34 @@ h3{
 }
 
 /***** contact *****/
+
+
 #contact h3{
   display:block;
   text-align: center;
-  margin:auto;
+  margin: auto;
   font-size: 40px;
+}
+#contact h4{
+    color:#45133f;
+    font-size:20px;
+}
+#contact .full-width {
+  display:inline-block;
+  margin-left:auto;
+  height:300px;
+  padding-bottom: 60px;
+}
+
+#contact .third-width {
+  display:block;
+  text-align: center;
+  margin:auto;
+  height:600px;
+}
+#contact li{
+  display:inline-block;
+  list-style: none;
+  text-align: center;
+  padding:20px;
 }
