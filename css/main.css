@@ -125,9 +125,9 @@ p{
 }
 
 img.displayed {
-  display: block;
-  margin-left:auto;
-  margin-right:auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
   width:535px;
 }
 
@@ -143,15 +143,15 @@ h3{
 
 
 #portfolio {
+  display:flex;
+  justify-content:center;
+  align-items: center;
   padding:80px;
   text-align: center;
   font-family: 'Sriracha', cursive;
 }
 
-#portfolio .full-width {
-  margin-left:auto;
-  margin-right:auto;
-}
+
 #portfolio .third-width{
   display:inline-block;
   text-align: center;
@@ -183,34 +183,46 @@ h3{
 }
 
 /***** contact *****/
+.center {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width:100%
+}
 
+.contact{
+  font-weight: 700;
+ display:flex;
+ justify-content:center;
+  align-items: center;
 
-#contact h3{
-  display:block;
-  text-align: center;
-  margin: auto;
+}
+
+.hire-me,.follow-me,.lets-meet{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width:30%;
+  height:300px;
+}
+ h3{
+   display:flex;
+   justify-content:center;
+   align-content: center;
   font-size: 40px;
 }
-#contact h4{
+h4{
+  display:flex;
+  justify-content:center;
+  align-content: center;
     color:#45133f;
     font-size:20px;
 }
-#contact .full-width {
-  display:inline-block;
-  margin-left:auto;
-  height:300px;
-  padding-bottom: 60px;
-}
-
-#contact .third-width {
-  display:block;
-  text-align: center;
-  margin:auto;
-  height:600px;
-}
-#contact li{
-  display:inline-block;
+ ul{
   list-style: none;
-  text-align: center;
-  padding:20px;
+}
+ li{
+  display:inline-block;
+  text-align:center;
 }
